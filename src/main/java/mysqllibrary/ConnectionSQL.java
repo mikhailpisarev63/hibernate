@@ -11,7 +11,8 @@ import java.sql.Statement;
 public class ConnectionSQL {
     private static final String URL = "jdbc:mysql://localhost:3306/courses_dump_skillbox";
     private static final String USE = "root";
-    private static final String PASSWORD = "Vb[fcbr16331";
+    /*The password is hidden for uploading to GitHub*/
+    private static final String PASSWORD = "";
 
     public Statement connectionSQL() {
         Statement statement;
